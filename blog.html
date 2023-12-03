@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="Resorces/fr.png">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+    <!-- Title -->
+    <title>PHero tube Website</title>
+
+</head>
+
+<body class="bg-[#FFF]">
+    <header>
+        <!-- navbar -->
+        <div class="navbar h-20 mb-5 ">
+            <div class="navbar-start">
+                <!-- nav left -->
+                <div class="dropdown">
+                    <img src="Resorces/Logo.png" alt="">
+                </div>
+            </div>
+            <!-- nav right -->
+            <div class="navbar-end">
+                <button id="return-button" class="btn btn-error"><a href="index.html">Return</a></button>
+            </div>            
+        </div>
+        <hr size="10">
+    </header>
+    <main class="bg-slate-200">
+        <div class="mx-30">
+            <div class="hero bg-blue-200">
+                <div class="hero-content text-center">
+                    <div class="max-w-md text-black">
+                        <h1 class="text-4xl font-bold">Discuss the scope of var, let, and const</h1>
+                        <p class="py-1"><b><u>var</u></b>: var is global scope the meaning of this is that it is
+                            accessible with in
+                            the declared area or n a function </p>
+                        <p class="py-1"><b><u>let</u></b>: let is blocked scope it means that it is only accessible
+                            where it is
+                            declared like in a function </p>
+                        <p class="py-1"><b><u>const</u></b>: like let const is also blocked scope but unlike let it can
+                            not change
+                            value. </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="hero bg-red-200">
+                <div class="hero-content text-center">
+                    <div class="max-w-md text-black">
+                        <h1 class="text-4xl font-bold">Tell us the use cases of null and undefined</h1>
+                        <h2 class="text-2xl font-semibold">Undefined</h2>
+                        <p>if a function is call with more parameters then declared undefined is given as an default.
+                        </p>
+                        <p>if accessing a class without a value Undefined is given.</p>
+                        <p>tp specify a function without a Return statement undefined can be used.</p>
+                        <h2 class="text-2xl font-semibold">null</h2>
+                        <ul>
+                            <li>if a function has no values it sometimes returns null.</li>
+                            <li>if needed we can use null if we want to erase a variables value.</li>
+                            <li>if required we can declare a variable as null. </li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="hero bg-yellow-200">
+                <div class="hero-content text-center">
+                    <div class="max-w-md text-black">
+                        <h1 class="text-4xl font-bold">What do you mean by REST API?</h1>
+                        <p>REST API stands for Representational State Transfer Application Programming Interface it is a collection of rules for designing network related application </p>
+                    </div>
+                </div>
+                <br>
+            </div>
+    </main>
+
+</html>
